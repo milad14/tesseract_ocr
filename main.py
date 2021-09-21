@@ -1,5 +1,6 @@
 from PIL import Image
 import pytesseract
+import numpy as np
 
 def process_image(iamge_name, lang_code):
 	return pytesseract.image_to_string(Image.open(iamge_name), lang=lang_code)
@@ -21,7 +22,7 @@ def main():
 	#print_data(data_ben)
 	#output_file("eng.txt", data_eng)
 	#output_file("ben.txt", data_ben)
-	output_file("fas2.txt", data_fas)
+	output_file("./outputs/fas3.txt", data_fas)
 
 
 if  __name__ == '__main__':
