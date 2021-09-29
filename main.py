@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from PIL import Image
 import pytesseract
 import numpy as np
@@ -28,5 +28,3 @@ def main():
 
 if  __name__ == '__main__':
 	main()
-=======
->>>>>>> parent of 708e8f3... add image and initial code for main and some output and edit in readme
