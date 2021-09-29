@@ -9,6 +9,7 @@ def print_data(data):
 	print(data)
 
 def output_file(filename, data):
+	print('hello world!')
 	file = open(filename, "w+")
 	file.write(data)
 	file.close()
